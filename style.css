@@ -50,3 +50,9 @@ p {
     color: white;
     font-size: 1.0rem;
 }
+
+section img {
+    width: 20;
+    height: auto;
+    border-radius: 10px;
+}
