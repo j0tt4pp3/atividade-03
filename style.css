@@ -39,9 +39,23 @@ section {
     box-shadow: 0px 10px 10px #181818;
     padding: 10px;
     border-radius: 10px;
+}
+
+.secao-1 {
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+.secao-2 {
+    margin-top: 30px;
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    background: none;
+    box-shadow: none;
+    padding: 0px;
+    border-radius: 10px;
 }
 
 h2 {
@@ -52,7 +66,7 @@ h2 {
 
 p {
     color: white;
-    font-size: 1.04rem;
+    font-size: 1.02rem;
 }
 
 section img {
@@ -63,4 +77,41 @@ section img {
 
 .texto-apresentacao {
     flex: 1;
+}
+
+.lista-identidade {
+    color: white;
+    list-style: none;
+
+}
+
+.lista-identidade li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.08rem;
+    padding: 5px 0;
+}
+
+h3 {
+    padding-left: 40px;
+    font-size: 2rem;
+    color: rgb(180, 0, 1);
+    text-shadow: 0px 0px 10px rgba(180, 0, 0, 0.842);
+}
+
+.texto-identidade {
+    flex: 2;
+    background-color: #101010;
+    box-shadow: 0px 10px 10px #181818;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.assinatura {
+    flex: 1;
+    background-color: #101010;
+    box-shadow: 0px 10px 10px #181818;
+    padding: 10px;
+    border-radius: 10px;
 }
