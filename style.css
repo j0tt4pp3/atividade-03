@@ -39,20 +39,28 @@ section {
     box-shadow: 0px 10px 10px #181818;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
 }
 
 h2 {
+    font-size: 3rem;
     color: rgb(180, 0, 1);
-    text-shadow: 0px 0px 10px rgb(180, 0, 1);
+    text-shadow: 0px 0px 10px rgba(180, 0, 0, 0.842);
 }
 
 p {
     color: white;
-    font-size: 1.0rem;
+    font-size: 1.04rem;
 }
 
 section img {
-    width: 20;
+    width: 300px;
     height: auto;
     border-radius: 10px;
+}
+
+.texto-apresentacao {
+    flex: 1;
 }
