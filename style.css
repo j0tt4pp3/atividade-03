@@ -211,21 +211,84 @@ details[open] summary .fa-compact-disc {
 
 .disco {
     display: flex;
-    gap: 30px;
+    gap: 40px;
     align-items: flex-start;
     padding-top: 10px;
 }
 
+.capa-disco {
+    flex: none;
+}
+
 .capa-disco img {
+    display: block;
     width: 300px;
     height: auto;
     border-radius: 10px;
+    width: 100%;
 }
 
 .info-disco {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     flex: 2;
+    color: white;
+}
+
+.info-disco strong {
+    color: rgb(180, 0, 1);
+}
+
+.info-disco li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.info-disco ul {
+    margin-top: 0%;
+    padding: 0%;
+    background-color: #141414;
+    box-shadow: 0px 10px 10px #202020;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.info-disco p {
+    margin-top: 0%;
+    background-color: #141414;
+    box-shadow: 0px 10px 10px #202020;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .tracklist {
-    flex: 1;
+    flex: 0.5;
+    padding-left: 10%;
+    color: white;
+    background-color: #141414;
+    box-shadow: 0px 10px 10px #202020;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.tracklist li {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.tracklist li::marker {
+    color: rgb(180, 0, 1);
+}
+
+
+h4 {
+    font-size: 1.6rem;
+    color: rgb(180, 0, 1);
+    text-shadow: 0px 0px 10px rgba(180, 0, 0, 0.842);
+    margin-top: 0%;
+    padding-left: 15px;
+    margin-bottom: 4%;
 }
