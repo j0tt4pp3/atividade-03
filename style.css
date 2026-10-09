@@ -173,7 +173,7 @@ details {
 }
 
 .tipo-lancamento {
-    text-align: center;
+    text-align: left;
     flex: 1;
     background-color: #101010;
     box-shadow: 0px 10px 10px #181818;
@@ -190,4 +190,42 @@ summary {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 4px;
+}
+
+summary .fa-compact-disc {
+    display: inline-block;
+    margin-right: 5px;
+    transition: transform 0.8s ease-out;
+    transform-origin: center;
+}
+
+details[open] summary .fa-compact-disc {
+    transform: rotate(360deg);
+}
+
+.ol-discos {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.disco {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+.capa-disco img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-disco {
+    flex: 2;
+}
+
+.tracklist {
+    flex: 1;
 }
