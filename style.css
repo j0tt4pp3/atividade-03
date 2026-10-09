@@ -218,11 +218,19 @@ details[open] summary .fa-compact-disc {
 
 .capa-disco {
     flex: none;
+    width: 438px;
+    background-color: #141414;
+    box-shadow: 0px 10px 10px #202020;
+    padding: 0px;
+    border-radius: 10px;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
 }
 
 .capa-disco img {
     display: block;
-    width: 300px;
+    width: 100%;
     height: auto;
     border-radius: 10px;
     width: 100%;
