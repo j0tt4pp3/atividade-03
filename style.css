@@ -314,8 +314,29 @@ h4 {
     width: 100%;
     aspect-ratio: 16 / 9;
     height: auto;
-    background-color: #141414;
-    box-shadow: 0px 10px 10px #202020;
+    background-color: #101010;
+    box-shadow: 0px 10px 10px #181818;
     border-radius: 10px;
 }
+
+.secao-contato {
+    background-color: #101010;
+    box-shadow: 0px 10px 10px #181818;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+input,
+select,
+textarea,
+button {
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #242424;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: inherit;
+    color: white;
 }

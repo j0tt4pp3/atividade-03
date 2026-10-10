@@ -36,6 +36,53 @@
         </nav>
     </header>
 
+    <main>
+        <section class="secao-contato">
+            <h2>Assine nossa Newsletter</h2>
+            <p>Receba novidades sobre <strong>The Weeknd</strong> e sua carreira: novos lançamentos, shows, discos e
+                <em>curiosidades</em> direto no seu e-mail.</p>
+
+            <form action="#" method="post" class="form-newsletter">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" autocomplete="name" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" autocomplete="email"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" id="assunto" name="assunto" placeholder="Ex.: novidades do próximo álbum"
+                        required>
+                </div>
+
+                <div class="campo">
+                    <label for="categoria">Categoria</label>
+                    <select id="categoria" name="categoria" required>
+                        <option value="" disabled selected>Escolha uma categoria</option>
+                        <option value="lancamentos">Novos lançamentos</option>
+                        <option value="shows">Shows e turnês</option>
+                        <option value="discografia">Discografia e coletâneas</option>
+                        <option value="curiosidades">Curiosidades e bastidores</option>
+                        <option value="tudo">Tudo sobre o The Weeknd</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="comentario">Comentário</label>
+                    <textarea id="comentario" name="comentario" rows="5"
+                        placeholder="Conte o que você mais gostaria de receber"></textarea>
+                </div>
+
+                <button type="submit">Quero receber as novidades</button>
+            </form>
+        </section>
+    </main>
+
 </body>
 
 </html>
