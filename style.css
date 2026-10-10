@@ -335,14 +335,26 @@ h4 {
     margin-bottom: 4%;
 }
 
-.lista-premios li {
-    color: white;
-    margin-bottom: 5px;
-    font-size: 1.3rem;
+.lista-premios {
+    padding: 0;
     list-style: none;
 }
 
+.lista-premios li {
+    color: white;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+}
+
 .lista-premios li::marker {
+    color: rgb(180, 0, 1);
+}
+
+.lista-premios svg {
+    margin-right: 5px;
+}
+
+.lista-premios strong {
     color: rgb(180, 0, 1);
 }
 
