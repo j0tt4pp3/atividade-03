@@ -423,3 +423,24 @@ label {
 .campo {
     margin-bottom: 20px;
 }
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    border-top: 1px solid #222;
+}
+
+footer p {
+    color: #888;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+footer a {
+    color: rgb(180, 0, 1);
+}
+
+footer a:hover {
+    color: white;
+}
