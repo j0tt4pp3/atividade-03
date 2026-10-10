@@ -17,7 +17,7 @@ Projeto da **Atividade 3 (Mini Site em HTML)**. É um site de três páginas sob
 
 ## Estrutura
 
-    /atividade-03
+    /mini-site-the-weeknd
     ├── index.html
     ├── sobre.html
     ├── contato.html
