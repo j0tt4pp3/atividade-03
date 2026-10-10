@@ -4,7 +4,7 @@ Projeto da **Atividade 3 (Mini Site em HTML)**. É um site de três páginas sob
 
 ## Páginas
 
-- **Home (`index.html`):** apresentação do artista, com dados pessoais, o nome artístico e as características do estilo musical.
+- **Home (`index.html`):** apresentação do artista, o nome artístico e as características do estilo musical.
 - **Sobre (`sobre.html`):** a trajetória da carreira, a discografia completa (álbuns de estúdio, mixtapes, EPs e compilações, com capa, ficha técnica, descrição e tracklist de cada disco) e o show de São Paulo em 2024.
 - **Contato (`contato.html`):** formulário de newsletter para receber novidades sobre o artista.
 
