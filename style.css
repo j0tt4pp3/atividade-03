@@ -335,6 +335,17 @@ h4 {
     margin-bottom: 4%;
 }
 
+.lista-premios li {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+.lista-premios li::marker {
+    color: rgb(180, 0, 1);
+}
+
 .video-show {
     display: block;
     margin: 0 auto;
