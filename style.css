@@ -319,13 +319,6 @@ h4 {
     border-radius: 10px;
 }
 
-.secao-contato {
-    background-color: #101010;
-    box-shadow: 0px 10px 10px #181818;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 0 auto;
-}
 
 input,
 select,
@@ -339,4 +332,39 @@ button {
     border-radius: 10px;
     font-family: inherit;
     color: white;
+    border: 2px solid #333;
+}
+
+
+.titulo-contato {
+    background-color: #141414;
+    box-shadow: 0px 10px 10px #202020;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.info-form {
+    background-color: #141414;
+    box-shadow: 0px 10px 10px #202020;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.secao-contato {
+    background-color: #101010;
+    box-shadow: 0px 10px 10px #181818;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.campo {
+    margin-bottom: 20px;
 }
