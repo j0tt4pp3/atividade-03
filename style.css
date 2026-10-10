@@ -308,16 +308,14 @@ h4 {
     margin-bottom: 4%;
 }
 
-.show {
-    text-align: center;
-    flex: 1;
-    background-color: #101010;
-    box-shadow: 0px 10px 10px #181818;
-    padding: 10px;
+.video-show {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    background-color: #141414;
+    box-shadow: 0px 10px 10px #202020;
     border-radius: 10px;
-    flex: 1;
-    background-color: #101010;
-    box-shadow: 0px 10px 10px #181818;
-    padding: 10px;
-    border-radius: 10px;
+}
 }
