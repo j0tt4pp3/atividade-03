@@ -242,6 +242,9 @@ details[open] summary .fa-compact-disc {
     gap: 10px;
     flex: 2;
     color: white;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
 }
 
 .info-disco strong {
@@ -273,13 +276,16 @@ details[open] summary .fa-compact-disc {
 }
 
 .tracklist {
-    flex: 0.5;
+    flex: 1;
     padding-left: 10%;
     color: white;
     background-color: #141414;
     box-shadow: 0px 10px 10px #202020;
     padding: 10px;
     border-radius: 10px;
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
 }
 
 .tracklist li {
