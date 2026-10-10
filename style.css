@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #080808;
     font-family: "Oswald", sans-serif;
@@ -14,24 +18,43 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 nav li {
     display: flex;
     align-items: center;
-    gap: 20px;
-    margin-bottom: 50px;
+    gap: 10px;
+    background-color: #101010;
+    transition: background-color 0.3s;
+    box-shadow: 0px 10px 10px #181818;
+    padding: 8px 16px;
+    border-radius: 10px;
 }
 
+nav li:hover {
+    background-color: rgb(180, 0, 1);
+}
+
+nav li:hover i {
+    color: #101010;
+}
+
+nav li:hover a {
+    color: #101010;
+}
 
 nav li i {
     color: rgb(180, 0, 1);
     font-size: 1rem;
+    transition: color 0.3s
 }
 
 nav a {
     color: white;
     font-size: 1.6rem;
+    transition: color 0.3s;
+    text-decoration: none;
 }
 
 section {
@@ -335,6 +358,34 @@ button {
     border: 2px solid #333;
 }
 
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: rgb(180, 0, 1);
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #888;
+    opacity: 1;
+}
+
+select:invalid {
+    color: #888;
+}
+
+option {
+    background-color: #242424;
+    color: white;
+}
+
+button {
+    background-color: rgb(180, 0, 1);
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
 
 .titulo-contato {
     background-color: #141414;
